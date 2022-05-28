@@ -1,0 +1,31 @@
+{
+    "files.autoSave": "afterDelay",
+    
+    "editor.tokenColorCustomizations": {
+        "[Monokai]": {
+            "comments": "#300bff"
+        },
+        "[*Dark*]": {
+            "variables": "#ff771d", 
+            "comments": "#00c28b", 
+            "keywords": "#ff15c4", 
+            "functions": "#a41bff", 
+            "numbers": "#00ccff", 
+            "strings": "#e3e701",
+            "types": "#0084ff",
+        },
+        "[Abyss][Red]": {
+            "keywords": "#f00"
+        }
+    },
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.language.colorizedBracketPairs": [
+    
+    ],
+    "python.analysis.extraPaths": [
+        "/home/tky135/miniconda3/lib",
+        "/home/tky135/miniconda3/pkgs",
+        "/home/tky135/miniconda3"
+    ],
+    "python.defaultInterpreterPath": "/home/tky135/miniconda3/bin/python"
+}
