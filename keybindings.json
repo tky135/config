@@ -2,22 +2,22 @@
 [
     // cursor movement
     {
-        "key": "alt+k",
+        "key": "alt+l",
         "command": "cursorDown",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+h",
+        "key": "alt+j",
         "command": "cursorLeft",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+j",
+        "key": "alt+k",
         "command": "cursorUp",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+l",
+        "key": "alt+;",
         "command": "cursorRight",
         "when": "textInputFocus"
     },
@@ -34,7 +34,6 @@
         "key": "alt+a",
         "command": "cursorLineStart"
     },
-
     // go backward and forward
     {
         "key": "shift+alt+f",
@@ -56,7 +55,6 @@
         "command": "-workbench.action.navigateBack",
         "when": "canNavigateBack"
     },
-
     // folding
     {
         "key": "alt+f",
@@ -68,25 +66,20 @@
         "command": "-editor.toggleFold",
         "when": "editorTextFocus && foldingEnabled"
     },
-    
     // delete entire line
     {
         "key": "alt+backspace",
         "command": "editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
     },
-    
     // Toggle between terminal and editor focus
     {
-        "key":     "shift+alt+a",
+        "key": "shift+alt+a",
         "command": "workbench.action.terminal.focus"
     },
     {
-        "key":     "shift+alt+a",
+        "key": "shift+alt+a",
         "command": "workbench.action.focusActiveEditorGroup",
-        "when":    "terminalFocus"
+        "when": "terminalFocus"
     },
-    
-    
-    
 ]
